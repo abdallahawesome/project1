@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 150;
+    font-family: U8,sans-serif;
+    box-sizing: border-box;
+}
+body{
+    color: #3d4f60;
+    position: relative;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.btn-2{
+    background: #122231;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+
+}
+.btn-3{
+    color: #fff !important;
+    box-sizing: border-box;
+    background: rgb(0, 89, 255);
+    border-radius: 30px 30px 30px 30px;
+    font-weight: 300;
+    font-size: 20px;
+}
+.better{
+    font-family: Jakarta;
+  font-weight: 700;
+  color: #122231;
+  max-width: 459px;
+  margin-top: -20px;
+  font-size: 48px;
+}
+.piggywoman-1
+{
+    float: right;
+    width: 40%;
+    top: 100px;
+    max-width: 100%;
+}
+
+.awe{
+    font-size: 24px;
+  line-height: 33px;
+  font-family: Jakarta;
+  font-weight: 700;
+  color: #122231;
+}
+.many{
+    font-size: 48px;
+  line-height: 66px;
+  margin: auto;
+  font-family: Jakarta;
+  font-weight: 700;
+  color: #122231;
+
+}
+
+.grid-child{
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    width: 100%;
+    height: 1000px;
+    gap: 25px;
+    padding: 2rem;
+}
+
+.piggy-1{
+    border: 1px solid lightgray;
+    width: 450px;
+    height: 450px;
+    border-radius: 15px;
+    overflow: hidden;
+    animation: back 10s linear 3s infinite;
+}
+.fixed{
+    margin-left: 50px;
+    margin-top: 50px;
+    animation: fixed 10s linear 3s infinite;
+   
+}
+.lock{
+    margin-left: 30px;
+    max-width: 250px !important;
+    line-height: 25px;
+    font-size: 20px;
+    color: grey;
+    animation: lock 7s ease-in-out 7s infinite;
+
+}
+.iphone{
+    width: 200px;
+
+    margin-left: 500px;
+    margin-top: 200px;
+    animation: piggy-phone 7s linear 3s infinite;
+    border: none;
+}
+@keyframes piggy-phone{
+    0%{
+        margin-left: 500px;
+        margin-top: 200px;
+    }
+    25%{
+        margin-left: 200px;
+        margin-top: 0px;
+    }
+    50%{
+        margin-left: 200px;
+        margin-top: 0px;
+    }
+    75%{
+        margin-left: 200px;
+        margin-top: 0px;
+    }
+    100%{
+        margin-left: 500px;
+        margin-top: 200px;
+    }
+}
+
+@keyframes back{
+0%{
+    /* background-color: white; */
+    h1{
+        color: lightblue;
+    }
+}
+25%{
+    background-color: blue;
+    color: white;
+}
+50%{
+    background-color: blue;
+    color: white !important;
+}
+100%{
+    /* background-color: white; */
+    color: white !important; 
+}
+}
+
+@keyframes flex{
+    0%{
+        color: lightblue;
+    }
+    25%{
+        color: white;
+    }
+    50%{
+        color: white !important;
+    }
+    100%{
+        color: lightblue !important;
+    }
+}
+
+
+.piggy-2{
+    border: 1px solid lightpink;
+    width: 450px;
+    height: 450px;
+    border-radius: 15px;
+    overflow: hidden;
+    animation: back 10s linear 3s infinite;
+}
+.flex{
+    margin-left: 50px;
+    margin-top: 50px;
+    animation: fixed 10s linear 3s infinite;
+   
+}
+.save{
+    margin-left: 30px;
+    max-width: 250px !important;
+    line-height: 25px;
+    font-size: 20px;
+    color: grey;
+
+}
+.iphone-2{
+    width: 200px;
+
+    margin-left: 500px;
+    margin-top: 200px;
+    animation: piggy-phone 7s linear 3s infinite;
+}
+@keyframes piggy-phone{
+    0%{
+        margin-left: 500px;
+        margin-top: 200px;
+    }
+    25%{
+        margin-left: 200px;
+        margin-top: 0px;
+    }
+    50%{
+        margin-left: 200px;
+        margin-top: 0px;
+    }
+    75%{
+        margin-left: 200px;
+        margin-top: 0px;
+    }
+    100%{
+        margin-left: 500px;
+        margin-top: 200px;
+    }
+}
+
+@keyframes back{
+0%{
+    background-color: white;
+    h1{
+        color: lightpink;
+    }
+}
+25%{
+    background-color: lightpink;
+    color: white;
+}
+50%{
+    background-color: lightpink;
+    color: white !important;
+}
+100%{
+    background-color: lightpink;
+    color: white !important; 
+}
+}
+
+@keyframes flex{
+    0%{
+        color: lightpink;
+    }
+    25%{
+        color: white;
+    }
+    50%{
+        color: white !important;
+    }
+    100%{
+        color: lightpink !important;
+    }
+}

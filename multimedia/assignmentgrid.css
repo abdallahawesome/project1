@@ -1,0 +1,148 @@
+.parent{
+    border: 1px solid grey;
+    width: 831px;
+    height: 600px;
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(2,250px);
+}
+.child{
+    border:0 solid purple;
+    border-radius: 1px;
+    
+}
+.child-1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: ;
+    grid-row-end:;
+    background-image: url(./emirates1.avif);
+    background-position: right;
+    background-size: cover;
+}
+.child-2{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: ;
+    grid-row-end:;
+    background-image: url(./emirates2.avif);
+    background-position: right;
+    background-size: cover;
+}
+.child-3{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: ;
+    grid-row-end:;
+    background-image: url(./emirates3.avif);
+    background-position: right;
+    background-size: cover;  
+}
+.child-4{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: ;
+    grid-row-end:;
+    background-image: url(./emirates6.avif);
+    background-position: right;
+    background-size: cover;  
+}
+.india{
+    padding-left: 150px;
+    font-family: Helvetica, sans-serif;
+    color: grey;
+    font-weight: 700px;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+@font-face {
+    font-family: ola;
+    src: url(./Emirates-Bold.ttf);
+}
+.mumbai{
+    font-family: ola;
+    font-size: 40px;
+    padding-left: 30px;
+}
+.under{
+    color: ;
+    width: px;
+    height: px;
+    background-color: ;
+    position: ;
+    left: px;
+    margin-top: px;
+}
+.book{
+    font-family: Helvetica, sans-serif;
+    font-size: 15;
+    padding-left: 200;
+}
+.from{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 90px;
+}
+.united{
+    padding-left: 150px;
+    font-family: Helvetica, sans-serif;
+    color: grey;
+    font-weight: 700px;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.dubai{
+    font-family: ola;
+    font-size: 40px;
+    padding-left: 30px;
+}
+.edinburgh{
+    font-family: ola;
+    font-size: 40px;
+    padding-left: 30px;
+}
+.parent-1{
+    border: 1px solid grey;
+    width: 60px;
+    height: 60px;
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1, 1, 1);
+    grid-template-rows: repeat(1, 1, 1, 1, 1); 
+}
+.parent-2{
+    border: 1px solid grey;
+    width: 60px;
+    height: 60px;
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(2,250px); 
+}
+.parent-3{
+    border: 1px solid grey;
+    width: 831px;
+    height: 600px;
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(2,250px); 
+}
+.parent-4{
+    border: 1px solid grey;
+    width: 831px;
+    height: 600px;
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+    grid-template-columns: repeat(4,200px);
+    grid-template-rows: repeat(2,250px); 
+}
+.grid-{
+    border: 1x;
+}
